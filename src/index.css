@@ -53,6 +53,10 @@ h4 {
   font-size: 1.8rem;
 }
 
+section {
+  overflow-x: hidden;
+}
+
 .subheading {
   font-size: 1.8rem;
   color: var(--primary-light);
