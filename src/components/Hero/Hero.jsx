@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import Decoration from './decoration';
+import Decoration from './Decoration';
 import styles from './Hero.module.css';
 
 function Hero() {
