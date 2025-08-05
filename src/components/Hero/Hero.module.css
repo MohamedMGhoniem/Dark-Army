@@ -50,6 +50,10 @@
 
 /* 624px */
 @media (max-width: 39em) {
+  .heroSection {
+    height: 100vh;
+  }
+
   .heroSvg {
     width: 400px;
     margin-top: 5rem;
