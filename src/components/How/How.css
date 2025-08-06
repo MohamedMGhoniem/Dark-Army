@@ -46,6 +46,6 @@
 
 @media (max-width: 60em) {
   .how-container {
-    display: 80%;
+    width: 90%;
   }
 }
