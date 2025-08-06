@@ -1,0 +1,41 @@
+.sectionHow {
+  height: max(1000px, 150vh);
+  height: fit-content;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+
+.howContainer {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #001a35aa;
+  box-shadow: 0px 0px 45px 3px #2a3aebce, 0px 0px 45px 3px #2a3aeb6d inset;
+  border-radius: 11px;
+  position: relative;
+}
+
+.howSvg {
+  width: 100%;
+  height: auto;
+}
+
+[id^='how-line'] {
+  stroke-dashoffset: 400;
+  stroke-dasharray: 400;
+  animation: 3s linear forwards write;
+}
+
+@keyframes write {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+[id^='step'] {
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+[id^='step'].reveal {
+  opacity: 1;
+}

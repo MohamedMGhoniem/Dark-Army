@@ -53,10 +53,6 @@
     display: block;
   }
 
-  .header {
-    position: relative;
-  }
-
   .navbar {
     gap: 1rem;
     background-color: var(--primary-dark);
