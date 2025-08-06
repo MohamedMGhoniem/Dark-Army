@@ -8,8 +8,6 @@ function HomePage() {
       <Header />
       <Hero />
       <How />
-      <How />
-      <How />
     </>
   );
 }

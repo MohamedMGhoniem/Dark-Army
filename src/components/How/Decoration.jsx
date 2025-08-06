@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './How.module.css';
+import './How.css';
 
 function Decoration() {
   const [reveal, setReveal] = useState(false);
@@ -14,7 +14,7 @@ function Decoration() {
 
   return (
     <svg
-      className={styles.howSvg}
+      className="how-svg"
       width="1374"
       height="918"
       viewBox="0 0 1374 918"
@@ -119,7 +119,7 @@ function Decoration() {
               </g>
             </g>
           </g>
-          <g id="step" className={reveal ? styles.reveal : ''}>
+          <g id="step" className={reveal ? 'reveal' : ''}>
             <g id="frame3" filter="url(#filter0_i_85_1228)">
               <rect width="450" height="262" rx="12" fill="#1B204D" />
               <g id="frame5" filter="url(#filter1_i_85_1228)">
@@ -182,7 +182,7 @@ function Decoration() {
               />
             </g>
           </g>
-          <g id="step_2" className={reveal ? styles.reveal : ''}>
+          <g id="step_2" className={reveal ? 'reveal' : ''}>
             <g id="frame3_2" filter="url(#filter2_i_85_1228)">
               <rect
                 x="924"
@@ -252,7 +252,7 @@ function Decoration() {
               />
             </g>
           </g>
-          <g id="step_3" className={reveal ? styles.reveal : ''}>
+          <g id="step_3" className={reveal ? 'reveal' : ''}>
             <g id="frame3_3" filter="url(#filter4_i_85_1228)">
               <rect
                 x="289"

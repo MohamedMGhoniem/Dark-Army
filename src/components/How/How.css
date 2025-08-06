@@ -1,12 +1,12 @@
-.sectionHow {
-  height: max(1000px, 150vh);
-  height: fit-content;
+.section-how {
+  height: 100vh;
   padding-top: 10rem;
   padding-bottom: 3rem;
+  position: relative;
 }
 
-.howContainer {
-  width: 70%;
+.how-container {
+  width: 60%;
   margin: 0 auto;
   background-color: #001a35aa;
   box-shadow: 0px 0px 45px 3px #2a3aebce, 0px 0px 45px 3px #2a3aeb6d inset;
@@ -14,15 +14,19 @@
   position: relative;
 }
 
-.howSvg {
+.how-svg {
   width: 100%;
+  scale: 1.1;
   height: auto;
 }
 
 [id^='how-line'] {
   stroke-dashoffset: 400;
   stroke-dasharray: 400;
-  animation: 3s linear forwards write;
+}
+
+.section-how.animate [id^='how-line'] {
+  animation: 1s linear forwards write;
 }
 
 @keyframes write {

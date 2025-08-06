@@ -1,15 +1,18 @@
+import { useObserver } from '../../helpers/helper';
 import Decoration from './Decoration';
-import styles from './How.module.css';
+import './How.css';
 
 function How() {
+  const elementRef = useObserver(0.1);
+
   return (
-    <section className={styles.sectionHow}>
+    <section className="section-how" ref={elementRef}>
       <img
         className="bg-decoration"
         src="./decorations/icons.png"
         aria-hidden="true"
       />
-      <div className={`${styles.howContainer}  `}>
+      <div className="how-container">
         <Decoration />
       </div>
     </section>
