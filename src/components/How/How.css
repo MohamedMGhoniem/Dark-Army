@@ -37,11 +37,13 @@
 
 [id^='step'] {
   opacity: 0;
+  display: none;
   transition: opacity 0.6s;
 }
 
 [id^='step'].reveal {
   opacity: 1;
+  display: block;
 }
 
 @media (max-width: 60em) {

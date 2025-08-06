@@ -9,7 +9,7 @@ function How() {
     <section className="section-how" ref={elementRef}>
       <img
         className="bg-decoration"
-        src="./decorations/icons.png"
+        src="./decorations/wave.png"
         aria-hidden="true"
       />
       <div className="how-container">
